@@ -37,7 +37,6 @@ array of values. Need to expand the Multiple component.
 
 ### References
 
-This project was bootstrapped with [Create React App](https://github
-.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 For more see the original [Create React App README](README_CRA.md).
