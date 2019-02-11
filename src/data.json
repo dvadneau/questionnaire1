@@ -1,0 +1,56 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "label": "Please enter your name.",
+      "type": "text",
+      "dataType": "text",
+      "defaultValue": "",
+      "required": true
+    },
+    {
+      "id": 1,
+      "label": "What is your favourite programming language?",
+      "type": "select",
+      "dataType": "text",
+      "options": ["C++", "JavaScript", "Java", "Python"],
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": 2,
+      "label": "What is your favourite front-end library?",
+      "type": "select",
+      "dataType": "text",
+      "options": ["React", "Angular", "Vue", "jQuery", "Ember"],
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": 3,
+      "label": "What front-end libraries have you used?",
+      "moreInfo": "(Select all that apply)",
+      "type": "multiple",
+      "dataType": "text",
+      "options": ["React", "Angular", "Vue", "jQuery", "Ember"],
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": 4,
+      "label": "Describe why you chose these libraries",
+      "type": "multiline_text",
+      "dataType": "text",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": 5,
+      "label": "Do you agree to our terms of service?",
+      "type": "check",
+      "dataType": "boolean",
+      "defaultValue": false,
+      "required": true
+    }
+  ]
+}

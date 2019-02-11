@@ -1,68 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Questionnaire app using React.
 
-## Available Scripts
+### Source Data
 
-In the project directory, you can run:
+Data for the project is located in the `src/data.json` file. See `src/App.js`
+ for usage.
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Requirements and Dependencies
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+See the package.json file for JS build dependencies outside of the standard 
+create-react-app.
 
-### `npm test`
+Node version 10.15.0 was used.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you have NVM installed run `nvm use` to ensure the correct version of 
+node/npm are used. See `.nvmrc`.
 
-### `npm run build`
+Yarn was used as the package manager, but npm will also work.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### Build and Launch
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Installing dependencies: run `yarn`.
 
-### `npm run eject`
+To build and launch using the development server: run `yarn start`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+For production deployment: run `yarn build`. The output target is the `build` 
+folder, relative to the project root
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Limitation - TODO
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The "multiple" type currently only returns a single value, rather than an 
+array of values. Need to expand the Multiple component.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### References
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project was bootstrapped with [Create React App](https://github
+.com/facebook/create-react-app).
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+For more see the original [Create React App README](README_CRA.md).

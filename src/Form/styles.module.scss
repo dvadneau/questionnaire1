@@ -1,0 +1,70 @@
+.questionGroup {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  /*text-align: left;*/
+}
+
+%questionBase {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.question {
+  @extend %questionBase
+}
+
+.check {
+  @extend %questionBase;
+
+  input {
+    margin-right: 10px;
+  }
+}
+
+.multiple {
+  @extend %questionBase;
+}
+
+.select {
+  @extend %questionBase;
+
+  input {
+    margin-right: 10px;
+  }
+}
+
+.textArea {
+  @extend %questionBase;
+}
+.textField {
+  @extend %questionBase;
+}
+
+.formControlLabel {
+  margin-bottom: 10px;
+}
+
+.formControlError {
+  color: red;
+}
+
+.buttonRow {
+  margin-top: 20px;
+}
+
+.required::before {
+  content: '*';
+  color: red;
+}
+
+.moreInfo {
+  font-size: 0.75em;
+}
